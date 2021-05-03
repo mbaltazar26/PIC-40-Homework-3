@@ -1,0 +1,10 @@
+fieldset
+{ 
+    border: 1px solid;
+    padding:3px; 
+}
+
+td
+{
+    vertical-align: bottom;
+}

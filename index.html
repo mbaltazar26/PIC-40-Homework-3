@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Homework 3</title>
+        <script src="java.js"></script>
+        <link rel="stylesheet" type="text/css" href="stylesheet.css"/>
+    </head>
+    <header>
+        <h1> Simple Calculator </h1>
+    </header>
+    <body>
+        <form>
+            <table>
+                <tr>
+                    <td>
+                        <label id ="sign" for="number1">First Value:</label> 
+                        <input type="text" name="first" id="number1"/> 
+                     </td>
+                     <td>
+                        <fieldset>
+                            <label for="plus">+</label>
+                            <input type="radio" id="plus" value="plus" name="sign"/> <br>
+                            <label for="minus">-</label>
+                            <input type="radio" id="minus" value="minus" name="sign"/> <br>
+                            <label for="mult">x</label>
+                            <input type="radio" id="mult" value="mult" name="sign"/> <br>
+                            <label for="div">&divide;</label>
+                            <input type="radio" id="div" value="div" name="sign"/> 
+                        </fieldset> 
+                    </td>
+                    <td>
+                        <label for="number2">Second Value:</label>
+                        <input type="text" name="second" id="number2"/>
+                    </td>
+                    <td>
+                        <button onclick="compute(); return false;" >Compute</button>
+                    </td>   
+                </tr>
+            </table>
+        </form>
+        <p id ="answer">Result: </p>
+    </body>
+</html>
+
